@@ -1,0 +1,139 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: #1f7fe6;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 54px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .heading {
+        font-size: 40px;
+    }
+}
+
+.letter {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 576px) {
+    .letter {
+        font-size: 40px;
+    }
+}
+
+.wikilink {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.wikilink:hover {
+    color: #89bdf5
+}
+
+.description {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+    .description {
+        font-size: 15px;
+    }
+}
+
+.swiper-container {
+    width: 75%;
+    height: 300px;
+    padding: 30px 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #e75042;
+    box-shadow: 0 1px 1px rgba(231, 80, 66, 0.11),
+        0 2px 2px rgba(231, 80, 66, 0.11),
+        0 4px 4px rgba(231, 80, 66, 0.11),
+        0 6px 8px rgba(231, 80, 66, 0.11),
+        0 8px 16px rgba(231, 80, 66, 0.11);
+    cursor: move;   
+}
+
+.swiper-pagination {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 75%;
+}
+
+.swiper-pagination-bullet {
+    padding: 0 10px;
+    margin: 20px 10px;
+    border-radius: 0;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 1;
+    background: #1271d6;
+}
+
+.swiper-pagination-bullet-active {
+    color: #ffffff;
+    background: #e75042;
+}
+
+.swiper-pagination-bullet-active:focus {
+    outline: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+    top: 21.5%;      
+}
